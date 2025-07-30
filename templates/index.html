@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Predictive Pulse</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Predictive Pulse</h1>
+        <p>Use our machine learning model to predict blood pressure based on your health metrics.</p>
+        <a class="btn" href="{{ url_for('details') }}">Start Prediction</a>
+    </div>
+</body>
+</html>
